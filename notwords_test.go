@@ -13,7 +13,7 @@ func TestNotWords(t *testing.T) {
 		{"X/foo/bar abc", "X/foo/bar abc"},
 		{"[/foo/bar] abc", "[        ] abc"},
 		{"/", "/"},
-		{"x nickg@client9.xxx y", "x                   y"},
+		{"x nickg@gpndata.xxx y", "x                   y"},
 		{"x infinitie.net y", "x               y"},
 		{"(s.svc.GetObject(", "(               ("},
 		{"\\nto", "  to"},

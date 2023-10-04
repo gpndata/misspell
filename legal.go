@@ -7,7 +7,7 @@ Execept where noted below, the source code for misspell is
 copyright Nick Galbreath and distribution is allowed under a
 MIT license.  See the following for details:
 
-* https://github.com/client9/misspell/blob/master/LICENSE
+* https://github.com/gpndata/misspell/blob/master/LICENSE
 * https://tldrlegal.com/license/mit-license 
 
 Misspell makes uses of the Golang standard library and 

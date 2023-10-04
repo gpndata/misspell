@@ -32,7 +32,7 @@ func TestFalsePositives(t *testing.T) {
 		"url is http://zeebra.com ",
 		"path is /zeebra?zeebra=zeebra ",
 		"Malcom_McLean",
-		"implementor", // alt spelling, see https://github.com/client9/misspell/issues/46
+		"implementor", // alt spelling, see https://github.com/gpndata/misspell/issues/46
 		"searchtypes",
 		" witness",
 		"returndata",
@@ -122,8 +122,8 @@ func TestFalsePositives(t *testing.T) {
 		"bodyreader",  // variable name
 		"cantPrepare", // variable name
 		"dontPrepare", // variable name
-		"\\nto",       // https://github.com/client9/misspell/issues/93
-		"4f8b42c22dd3729b519ba6f68d2da7cc5b2d606d05daed5ad5128cc03e6c6358", // https://github.com/client9/misspell/issues/97
+		"\\nto",       // https://github.com/gpndata/misspell/issues/93
+		"4f8b42c22dd3729b519ba6f68d2da7cc5b2d606d05daed5ad5128cc03e6c6358", // https://github.com/gpndata/misspell/issues/97
 	}
 	r := New()
 	r.Debug = true
